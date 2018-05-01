@@ -25,15 +25,14 @@ our team name is xxxxxxx
 
 In slack, there is a channel called q&a. You can post and answer questions here. I will also check this channel everyday, giving help as needed.
 
-## Download sublime text 3:
+## Download Atom:
 
 This will be your IDE for the course. The terminal is where you will run your code.
 
-- [sublime](https://www.sublimetext.com/3)
-
-To really make sublime your own, check out what plugins it has
-- [make sublime great](https://packagecontrol.io/)
-- [wow my life is so easy now](https://www.sitepoint.com/10-essential-sublime-text-plugins-full-stack-developer/)
+- [atom](https://atom.io/)
+- enable teletype
+- file-icons
+- and your own theme
 
 
 ## Download homebrew:
@@ -42,12 +41,7 @@ This is your package manager. Basically, it is an easy way to download software,
 
 ## Install Oh-my-zsh:
 - [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
-
-### For advanced users only:
-If you are new to the terminal, skip this part. You can seriously damage your computer if you mess up these steps!
-
-- enable st . as a hotkey for sublime
-- [Here is the documentation](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/sublime)
+- check out a few plugins you want to use
 
 ## Install python3 with brew
 ``` bash
