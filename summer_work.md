@@ -26,6 +26,7 @@ You may combine all program exercises into one program, two programs, or one pro
 - Create a program using OOP [oop link](https://gitlab.com/year_one_ibcs/year_of_dog/tree/master/oop)
 - Create a program that makes use of an API call [api link](https://gitlab.com/year_one_ibcs/year_of_dog/tree/master/apis)
 - IA section C
+- Build a python or rails server that sends out json data
 
 ## Part 2: Questions and Vocab
 

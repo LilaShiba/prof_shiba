@@ -54,10 +54,9 @@ class Music():
             json.dump(my_data, outfile)
 
 
-	# Level 3 Features
+# populate array of user info as json data
 
-
-meow = Music('Estelle',['car seat headrest', 'king tuff','the rabbits'], 'estelle.json')
+meow = Music('Estelle',['car seat headrest', 'king tuff',], 'estelle.json')
 bork = Music('Ben', ['car seat headrest', 'the rabbits'], 'ben.txt')
 
 
