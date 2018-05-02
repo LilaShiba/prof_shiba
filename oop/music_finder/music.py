@@ -14,26 +14,34 @@ class Music():
 	def add(self):
 		new_song = input(' What artist do you want to add')
 		# add to end of list in json
-		self.my_music[self.name].append(new_song)
-		file = open(self.file_name, 'w')
-		file.write(str(self.my_music))
-		file.close()
 
-		with open('estelle.json', 'w') as outfile:
-			json.dump(self.my_music, outfile)	
+		self.my_music[self.name].insert(-1,new_song)
+
+		#self.my_music[self.name].append(new_song)
+		# text based file
+		# file = open(self.file_name, 'w')
+		# file.write(str(self.my_music))
+		# file.close()
+
+		#json based ds
+		with open(self.file_name, 'w') as outfile:
+			json.dump(self.my_music, outfile)
 
 	def remove(self):
 		remove_song = input('what artist do you want to remove')
+		#temporary trash save
+		self.deleted_artists.append(remove_song)
 		# remove item for value of dict
 		for a in self.my_music.values():
 			if remove_song in a:
 				a.remove(remove_song)
 			print(a)
-
-		file = open(self.file_name, 'w')
-		file.write(str(self.my_music))
-		file.close()
-		with open('estelle.json', 'w') as outfile:
+		# text based file
+		# file = open(self.file_name, 'w')
+		# file.write(str(self.my_music))
+		# file.close()
+		# Write as an addition to current json
+		with open(self.file_name, 'w') as outfile:
 			json.dump(self.my_music, outfile)
 
 	def list(self):
@@ -53,26 +61,32 @@ class Music():
 		for x in self.deleted_artists:
 			print(x)
 
-#	def add_friends(self):
-#		new_friend = input('who is your new friend?')
-#		new_friend_song = input('what band do you share?')
-#		self.friends[new_friend] = new_friend_song
-#		with open('estelle.json', 'a') as outfile:
-#				json.dumps(self.friends, outfile, indent=4)
+	def add_friends(self):
+		new_friend = input('who is your new friend?')
+		new_friend_song = input('what band do you share?')
+		self.friends[new_friend] = new_friend_song
+		with open(self.file_name, 'a') as outfile:
+				json.dump(self.friends, outfile)
 
 	def find_friend(self, friend):
 		friend_shared_artist = [element for element in self.my_music[self.name] if element in friend.my_music[friend.name]]
 		friend_shared_artist = str(friend_shared_artist)[1:-1]
 		if friend_shared_artist != '':
 			print("You and %s have %s in common"%(friend.name, friend_shared_artist))
-			self.friends[friend.name] = friend_shared_artist
-			
+			like_music = {friend.name: friend_shared_artist}
+			# get rid of double quote
+			with open(self.file_name, 'a') as outfile:
+				json.dump(like_music, outfile)
+
+
+	def all_friends(self):
+		pass
 
 
 	# Level 3 Features
 
 
-meow = Music('Estelle',{'Estelle': ['car seat headrest', 'king tuff']}, 'estelle.txt')
+meow = Music('Estelle',{'Estelle': ['car seat headrest', 'king tuff']}, 'estelle.json')
 bork = Music('Ben', {'Ben': ['car seat headrest', 'the rabbits']}, 'ben.txt')
 
 

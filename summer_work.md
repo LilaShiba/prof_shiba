@@ -1,9 +1,9 @@
 # Summer Work
 
-Summer work is broken into 2 parts: programming and questions. 
+Summer work is broken into 2 parts: programming and questions.
 
-- Sources may be shared on slack 
-- Your code must be commented on by one of your peers
+- Sources may be shared on slack
+- Your code must be commented on by one of your peers (try using atom & teletype)
 - Your final repo should be linked in slack
 - [how to add a collaborator on github](https://stackoverflow.com/questions/7920320/adding-a-collaborator-to-my-free-github-account)
 - [markdown guide](https://guides.github.com/features/mastering-markdown/
@@ -18,7 +18,7 @@ Summer work is broken into 2 parts: programming and questions.
 
 All programs should be pushed to github with comments explaining how the code works. See any program in this repo for an example.
 
-You may combine all program exercises into one program, two programs, or one program for each item. As long as the following key items are met, you will get full credit: 
+You may combine all program exercises into one program, two programs, or one program for each item. As long as the following key items are met, you will get full credit:
 
 - recursive algorithm [recursive link](https://gitlab.com/year_one_ibcs/year_of_dog/tree/master/unit_2)
 - algorithm using the access methods of a queue, stack, or array [adt & algorithm link](https://gitlab.com/year_one_ibcs/year_of_dog/tree/master/adt)
@@ -31,7 +31,7 @@ You may combine all program exercises into one program, two programs, or one pro
 
 In your class repo create a new dir called networks. Answer the following questions in networks by creating a readme.md
 
-- protocol 
+- protocol
 
 - data packet
 
@@ -61,4 +61,3 @@ In your class repo create a new dir called networks. Answer the following questi
 - [simple networking](https://www.youtube.com/watch?v=7xiisZWRROw)
 - [build a network watch](https://www.youtube.com/watch?v=W2F8Wa65_B4)
 - [build a network read](https://www.dexterindustries.com/howto/setup-networking-for-a-camp-or-classroom-raspberry-pi-in-a-classroom/)
-
