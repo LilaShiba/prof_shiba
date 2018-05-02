@@ -51,7 +51,7 @@ class Music():
 
     def save(self):
         my_data = [self.my_music, self.friends]
-        with open(self.file_name, 'a') as outfile:
+        with open(self.file_name, 'w') as outfile:
             json.dump(my_data, outfile)
 
 
