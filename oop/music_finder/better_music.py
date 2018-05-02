@@ -41,7 +41,6 @@ class Music():
     def find_friend(self, friend):
         friend_shared_artist = [element for element in self.my_music if element in friend.my_music]
         print(friend_shared_artist)
-        friend_shared_artist = str(friend_shared_artist)[1:-1]
         if friend_shared_artist != " ":
             print("You and %s have %s in common"%(friend.name, friend_shared_artist))
             self.friends[friend.name] = friend_shared_artist
@@ -58,7 +57,7 @@ class Music():
 	# Level 3 Features
 
 
-meow = Music('Estelle',['car seat headrest', 'king tuff'], 'estelle.json')
+meow = Music('Estelle',['car seat headrest', 'king tuff','the rabbits'], 'estelle.json')
 bork = Music('Ben', ['car seat headrest', 'the rabbits'], 'ben.txt')
 
 
