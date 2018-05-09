@@ -14,10 +14,14 @@ def binary_search(arr,val):
 	if val == mid: return True
 	# if the value is less than the middle value, recursive implementation
 	# for lower half of the array
-	if val < mid: return binary_search(arr[:len(arr)//2], val)
+	if val < mid:
+		# print(arr[:len(arr)//2])
+		return binary_search(arr[:len(arr)//2], val)
 	# if the value is more than the middle value, recursive implementation
 	# for upper half of the array
-	if val > mid: return binary_search(arr[len(arr)//2+1:], val)
+	if val > mid:
+		# print(arr[len(arr)//2+1:])
+		return binary_search(arr[len(arr)//2:], val)
 
 	#a[len(a):] - This gets you the length of a to the end.
 	#It selects a range.
