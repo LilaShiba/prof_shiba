@@ -3,34 +3,28 @@
 Summer work is broken into 2 parts: programming and questions.
 
 - Sources may be shared on slack
-- Your code must be commented on by one of your peers (try using atom & teletype)
+- Your code must be commented on by one of your peers (try using atom & teletype, github, &| or slack)
 - Your final repo should be linked in slack
 - [how to add a collaborator on github](https://stackoverflow.com/questions/7920320/adding-a-collaborator-to-my-free-github-account)
 - [markdown guide](https://guides.github.com/features/mastering-markdown/
 
-#### Things to Consider
-
-- If you are going to a summer camp where you program, please use that code!
-- Your IA section C can count for this work
-- Your teacher can be contacted via email for help at anytime
 
 ## Part 1: Programs to Create
 
-All programs should be pushed to github with comments explaining how the code works. See any program in this repo for an example.
+Programs should be pushed to github with comments explaining what the heck is going on. A readme should teach a complete noob how to create and understand your program.
 
-You may combine all program exercises into one program, two programs, or one program for each item. As long as the following key items are met, you will get full credit:
+![Traveling Sales Man Problem](https://www.youtube.com/watch?v=BAejnwN4Ccw&list=PLRqwX-V7Uu6YJ3XfHhT2Mm4Y5I99nrIKX&index=32)
 
-- recursive algorithm [recursive link](https://gitlab.com/year_one_ibcs/year_of_dog/tree/master/unit_2)
-- algorithm using the access methods of a queue, stack, or array [adt & algorithm link](https://gitlab.com/year_one_ibcs/year_of_dog/tree/master/adt)
-- algorithm using the access methods of a hash [hash link](https://gitlab.com/year_one_ibcs/year_of_dog/tree/master/unit_0/programming/advanced_programs)
-- Create a program using OOP [oop link](https://gitlab.com/year_one_ibcs/year_of_dog/tree/master/oop)
-- Create a program that makes use of an API call [api link](https://gitlab.com/year_one_ibcs/year_of_dog/tree/master/apis)
-- IA section C
-- Build a python or rails server that sends out json data
+- Brute Force
+- Genetic Algorithm
+
+
 
 ## Part 2: Questions and Vocab
 
-In your class repo create a new dir called networks. Answer the following questions in networks by creating a readme.md
+In your class repo create a new dir called networks. Answer the following questions in networks by creating a readme.md.
+
+### You should answer the questions by explaining real world examples
 
 - protocol
 
