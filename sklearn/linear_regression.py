@@ -10,7 +10,7 @@ ols = linear_model.LinearRegression()
 
 
 for i in range(100):
-    # create nested array why?
+    # create nested array
     x = np.random.rand(30,2)
     y = x[:, 0] + 2*x[:,1] + np.random.rand(30)
     # train model
@@ -22,6 +22,7 @@ data = np.random.rand(100,2)
 # predictor
 x = data[:, 1]
 # response
+# Y=x1+2*x2+μ
 y = data[:, 0] + 2*data[:, 1] + np.random.rand(100)
 x = x.reshape(-1,1)
 ols.fit(x,y)
