@@ -1,7 +1,7 @@
 import random
 my_list = [1,2,3,4,5];
 # single
-tour = random.sample(range(15),15)
+tour = random.sample(range(25),15)
 # double
 cities = [random.sample(range(50), 2) for x in range(15)]
 
