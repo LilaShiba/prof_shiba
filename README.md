@@ -1,6 +1,6 @@
 # Hello and welcome to year one IBCS!
 
-[student api and machine learning project)(https://github.com/kyle1james/graphs/blob/master/student_projects/api_linear_regression.py)
+[student api and machine learning project](https://github.com/kyle1james/graphs/blob/master/student_projects/api_linear_regression.py)
 
 Here is your user documentation for the first lesson. This guide will take you through the steps of setting up a developers environment. Make sure your are familiar with the following terms:
 
